@@ -1,0 +1,37 @@
+{
+  "name": "typescript-react-webpack-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --colors --progress --inline --hot",
+    "build": "webpack",
+    "test": "eslint --ext .ts app/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artyomtrityak/typescript-react-webpack-example.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artyomtrityak/typescript-react-webpack-example/issues"
+  },
+  "homepage": "https://github.com/artyomtrityak/typescript-react-webpack-example#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.51",
+    "@babel/core": "^7.0.0-beta.51",
+    "@babel/preset-typescript": "^7.0.0-beta.51",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.0-beta.4",
+    "eslint-plugin-typescript": "^0.12.0",
+    "typescript": "^2.9.2",
+    "typescript-eslint-parser": "^16.0.0",
+    "webpack": "^4.12.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "eslint": "^5.0.1"
+  }
+}
